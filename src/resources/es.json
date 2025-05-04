@@ -1,0 +1,69 @@
+{
+  "common": {
+    "submit": "Enviar",
+    "amount": "Cantidad",
+    "continue": "Continuar",
+    "sign_up": "Regístrate",
+    "sign_in": "Inicia sesión",
+    "log_in": "Accede",
+    "register": "Registro",
+    "full_name": "Nombre completo",
+    "email": "Correo electrónico",
+    "password": "Contraseña"
+  },
+  "alerts": {
+    "add_funds_success": "Depósito realizado con éxito",
+    "error_null_amount": "Error: debes seleccionar una cantidad",
+    "error_wrong_credentials": "Usuario no encontrado / Credenciales incorrectas",
+    "error_empty_fields": "Completa todos los campos mandatorios",
+    "error_already_registered": "Error: Dirección de correo electrónico ya existente",
+    "reason_null_amount": "- Debes elegir una cantidad de dinero.\n",
+    "reason_null_receiver": "- Debes seleccionar un destinatario.\n",
+    "reason_insuficent_funds": "- No dispones de tanto dinero. Tu saldo es: {{availableMoney}} $.\n",
+    "reason_same_receiver": "- No puedes realizar transacciones a tu propia cuenta.\n"
+  },
+  "navbar": {
+    "my_wallet": "Mi cartera",
+    "add_funds": "Añadir fondos",
+    "transfer": "Transferir",
+    "sign_off": "Cerrar sesión"
+  },
+  "footer": {
+    "created_by": "Aplicacion sencilla creada por"
+  },
+  "home": {
+    "go_to_wallet": "Ir a mi cartera"
+  },
+  "login": {
+    "no_account": "¿No tienes una cuenta?"
+  },
+  "register": {
+    "already_got_account": "¿Ya tienes una cuenta?"
+  },
+  "wallet": {
+    "welcome_message": "Bienvenido/a",
+    "actual_balance": "Tu saldo disponible es de: ",
+    "last_movements": "Historial de movimientos",
+    "empty_historial": "No hay movimentos disponibles todavía :("
+  },
+  "add_funds": {
+    "add_funds": "Añadir fondos",
+    "amount": "Cantidad",
+    "card_number": "Número de tarjeta",
+    "expiration_date": "Fecha de v.",
+    "cvv": "CVV",
+    "pay": "Pagar"
+  },
+  "transfer": {
+    "new_transfer": "Hacer nueva transferencia",
+    "receiver": "Destinatario/a"
+  },
+  "card_transaction": {
+    "deposit": "Depósito",
+    "transference": "Transferencia",
+    "beneficiary" : "Beneficiario/a",
+    "issuer": "Emisor/a",
+    "receiver": "Receptor/a",
+    "balance": "Saldo"
+  }
+}

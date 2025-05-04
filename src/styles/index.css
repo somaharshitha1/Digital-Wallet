@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+/* GENERAL STYLES */
+body{
+  font-family: 'Nova Square', cursive;
+  color: white;
+}
+.primary-color{
+  color: #24b145;
+}
+.div-app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #212529;
+  color: white;
+  font-family: 'Nova Square', cursive;
+  background-image: url(../assets/background.jpeg);
+}
+.button-green{
+  border-radius: 0.25rem;
+  border: 0.1rem;
+  background-color: #24b145;
+  color: white;
+  font-weight: 00;
+  font-size:1.2rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+.button-green:hover{
+  background-color: #24b145;
+}
+.App-logo {
+  color: #14b471;
+  height: 40vmin;
+}
+.App-logo-mini {
+  color: #14b471;
+  height: 1.5rem;
+  margin: 0.35rem;
+}
+
+/* NAVBAR STYLES */
+.my-navbar{
+  background-color: #00000055;
+  box-shadow: 0px 0px 5px 1px #24b145;
+  margin-bottom: 1.2rem;
+}
+.logo-navbar-text {
+  font-weight: 800;
+  font-size: 0.8rem;
+  line-height: 115%;
+}
+
+/* FOOTER STYLES */
+.my-footer{
+  background-color: #00000055;
+  box-shadow: 0px 0px 5px 1px #24b145;
+  margin-top: auto;
+}
+
+/* LOGIN STYLES */
+.div-login{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  text-align: center;
+  margin: auto;
+  padding: 2rem;
+  width: 35rem;
+}
+@media only screen and (max-width: 35rem) {
+  .div-login{ 
+    width: 95%; 
+  }
+}
+
+.div-login-form{
+  width: 80%;
+  margin: auto;
+}
+
+/* REGISTER STYLES */
+.div-register-form{
+  width: 80%;
+}
+.text-switch-sign-up-sign-in {
+  font-size: 0.8rem;
+}
+
+/* WALLET STYLES */
+.div-wallet-history{
+  border-radius: 0.5rem;
+  border:  0.1rem;
+  border-style: solid;
+  border-color: #24b145;
+  padding: 1rem;
+  background-color: #1a1d20;
+}
+.div-last-transactions{
+  background-color: rgba(0, 0, 0, 0.5);
+  max-height: 54vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border-radius: 0.5rem;
+}
+
+/* TRANSFER STYLES */
+.hidden-box{
+  height: 0px;
+  overflow: hidden;
+}
+
